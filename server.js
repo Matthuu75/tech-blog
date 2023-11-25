@@ -11,6 +11,7 @@ const path = require("path");
 const app = express();
 const PORT = process.env.PORT || 3001;
 
+// Sets Handlebars as the defult template engine
 app.engine("handlebars", hbs.engine);
 app.set("view engine", "handlebars");
 
