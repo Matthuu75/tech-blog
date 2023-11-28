@@ -12,5 +12,9 @@
   "devDependencies": {
     "eslint-config-prettier": "^9.0.0",
     "prettier": "^3.1.0"
+  },
+  "dependencies": {
+    "mysql2": "^3.6.5",
+    "sequelize": "^6.35.1"
   }
 }
